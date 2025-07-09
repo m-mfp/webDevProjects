@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-sizing;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item-list {
+    display: grid;
+    align-items: center;
+    margin-top: 20vh;
+    margin-left: 40vw;
+    font-size: 26px;
+  }
+  
+  ul li {
+    padding: 10px;
+    list-style-type: none;
+  }
+  
+  
+  .favorite-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    position: absolute;
+    left: 290px;
+  }
+  
+  .filled {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+  }
