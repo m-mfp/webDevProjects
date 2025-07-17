@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: rgb(39, 3, 63);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#freecodecamp-logo {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(246, 233, 250);
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.palindrome-checker {
+    background-color: rgb(215, 192, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.palindrome-checker label {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: rgb(21, 1, 34);
+}
+
+#text-input {
+    width: 90%;
+    height: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#check-btn {
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(72, 9, 131);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#result {
+    color: rgb(21, 1, 34);
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#rules {
+    border-radius: 10px;
+    background-color: rgb(132, 80, 148);
+    margin: 20px;
+    width: 60%;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#rules p::before {
+    content: "💡";
+}
